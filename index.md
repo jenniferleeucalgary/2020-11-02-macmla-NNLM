@@ -295,7 +295,7 @@ available at https://codimd.carpentries.org
 <h2 id="collaborative_notes">Collaborative Notes</h2>
 
 <p>
-We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+We will use this <a href="https://pad.carpentries.org/2020-11-02-macmla-NNLM">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 <hr/>
 {% endif %}
@@ -313,13 +313,13 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 
 
 {% comment %}
-SCHEDULE - TBA
+SCHEDULE
 
 Show the workshop's schedule.  Edit the items and times in the table
 to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Schedule - TBA</h2>
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
